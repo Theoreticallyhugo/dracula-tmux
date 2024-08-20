@@ -15,12 +15,13 @@ Configuration and options can be found at [draculatheme.com/tmux](https://dracul
 ## Features
 
 - Support for powerline
+- Support for NerdFonts
 - Day, date, time, timezone
 - Current location based on network with temperature and forecast icon (if available)
 - Network connection status, bandwidth and SSID
 - SSH session user, hostname and port of active tmux pane
 - Git branch and status
-- Battery percentage and AC power connection status
+- Battery percentage and AC power connection status with icons
 - Refresh rate control
 - CPU usage (percentage or load average)
 - RAM usage (system and/or tmux server)
@@ -30,11 +31,7 @@ Configuration and options can be found at [draculatheme.com/tmux](https://dracul
 - GPU power draw
 - Color code based on whether a prefix is active or not
 - List of windows with the current window highlighted
-- When prefix is enabled, a smiley face turns from green to yellow
-- When charging, 'AC' is displayed
-    - Alternatively show battery level and whether its charging next to percentage by setting:
-    `set -g @dracula-battery-label false`
-    `set -g @dracula-show-battery-status true`
+- When prefix is enabled, the left status bar widget turns from green to yellow
 - If forecast information is available, a ☀, ☁, ☂, or ❄ unicode character corresponding with the forecast is displayed alongside the temperature
 - Info if the Panes are synchronized
 - Spotify playback (needs the tool spotify-tui installed). max-len can be configured.
